@@ -1,0 +1,12 @@
+basePath: /
+host: localhost:8080
+info:
+  contact: {}
+  description: API server that provides a list of CRUD operations for working with
+    the song structure
+  title: Music Service API
+  version: "1.0"
+paths: {}
+schemes:
+- http
+swagger: "2.0"

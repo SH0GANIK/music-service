@@ -1,0 +1,13 @@
+package song
+
+import "github.com/jackc/pgx/v5"
+
+type repo struct {
+	db *pgx.Conn
+}
+
+func NewSongRepository(db *pgx.Conn) repo {
+	return &repo{
+		db: db,
+	}
+}

@@ -1,0 +1,11 @@
+env: "local"
+http-server:
+  address: "0.0.0.0:8080"
+music-info-url: "http://192.168.56.1:8082"
+database:
+  username: "${POSTGRES_USER}"
+  host: "${POSTGRES_HOST}"
+  port: "${POSTGRES_PORT}"
+  dbname: "${POSTGRES_DB}"
+  sslmode: "${POSTGRES_SSLMODE}"
+  dsn: ""
